@@ -22,7 +22,24 @@ import {
     carrent,
     jobit,
     tripguide,
+    interview,
+  collab,
+  chatapp,
     threejs,
+    aws,
+    bootstrap,
+    java,
+    jwt,
+    microservices,
+    mssql,
+    mui,
+    mysql,
+    nextjs,
+    postgresql,
+    spring,
+    springboot,
+    websocket,
+    mars
   } from "../assets";
   
   const navLinks = [
@@ -33,6 +50,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -46,7 +67,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,36 +75,44 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "java",
+      icon: java,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "nextjs",
+      icon: nextjs,
     },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -96,77 +125,121 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,
     },
+    // {
+    //   name: "aws",
+    //   icon: aws,
+    // },
+    // {
+    //   name: "bootstrap",
+    //   icon: bootstrap,
+    // },
+    // {
+    //   name: "jwt",
+    //   icon: jwt,
+    // },
+    // {
+    //   name: "microservices",
+    //   icon: microservices,
+    // },
+    {
+      name: "mssql",
+      icon: mssql,
+    },
+    // {
+    //   name: "mui",
+    //   icon: mui,
+    // },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
+      name: "postgresql",
+      icon: postgresql,
+    },
+    {
+      name: "spring",
+      icon: spring,
+    },
+    {
+      name: "springboot",
+      icon: springboot,
+    },
+    // {
+    //   name: "websocket",
+    //   icon: websocket,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Development Engineer (Intern)",
+      company_name: "Mars Track Technologies Pvt Ltd",
+      icon: mars,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to building and integrating scalable full-stack applications, enhancing project development timelines by 40%.",
+        "Created responsive and user-friendly interfaces, ensuring compatibility across major browsers and devices, leading to a 20% increase in user engagement.",
+        // "Identified and resolved critical bugs, improving website loading speeds by 35% and overall application reliability.",
+        "Worked closely with mentors and cross-functional teams, implementing feedback to ensure high-quality deliverables and enhance team synergy.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Development Engineer",
+      company_name: "Mars Track Technologies Pvt Ltd",
+      icon: mars,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the creation of high-performance full-stack applications, driving a 60% increase in development efficiency.",
+        "Delivered seven responsive and robust applications, achieving 100% client satisfaction while reducing post-launch maintenance requirements by 30%.",
+        "Engineered and optimized RESTful APIs, significantly reducing response times by 40%, ensuring seamless integration with MySQL and SQL Server databases",
+        "Led code reviews and version control processes on GitHub, leveraging Git workflows to reduce deployment issues by 20% and maintain top-notch code quality.",
       ],
     },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,67 +271,90 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI Interview Mocker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built an AI-driven mock interview platform offering real-time feedback and tailored question sets to enhance interview preparation.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Postgresql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gemini AI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: interview,
+      source_code_link: "https://github.com/Usman972002/AI_Interview_Mocker",
+      live_demo_link:"https://ai-interview-mocker-sigma.vercel.app/",
+    },
+    {
+      name: "Real-Time Collaboration Platform",
+      description:
+        "Created a collaborative document editor supporting multi-user editing with instant updates and real-time synchronization.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Spring Boot",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MongoDb",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "STOMP.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "WebSockets",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Quill",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: collab,
+      source_code_link: "https://github.com/Usman972002/Real_Time_Collaboration_Platform_Frontend_React",
+      live_demo_link:"https://candid-croquembouche-55d2d2.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Chat App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a chat application enabling instant messaging, real-time notifications, and a seamless user experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MongoDb",
           color: "pink-text-gradient",
         },
+        {
+          name: "WebSockets",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: chatapp,
+      source_code_link: "https://github.com/Usman972002/chat-app",
+      live_demo_link:"https://usmans-chat-app.onrender.com/",
     },
   ];
   
