@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import round from "./round.png";
 import weblogo from './weblogo.png';
+import portfolio from './portfolio.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -97,4 +98,5 @@ export {
   spring,
   springboot,
   websocket,
+  portfolio,
 };

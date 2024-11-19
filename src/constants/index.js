@@ -39,7 +39,8 @@ import {
     spring,
     springboot,
     websocket,
-    mars
+    mars,
+    portfolio
   } from "../assets";
   
   const navLinks = [
@@ -355,6 +356,28 @@ import {
       image: chatapp,
       source_code_link: "https://github.com/Usman972002/chat-app",
       live_demo_link:"https://usmans-chat-app.onrender.com/",
+    },
+    {
+      name: "3D Portfolio",
+      description:
+        "Designed an interactive 3D portfolio website showcasing projects and skills with engaging visuals and dynamic user interactions.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Usman972002/3dportfolio",
+      live_demo_link:"https://usman972002.github.io/3dportfolio/",
     },
   ];
   
